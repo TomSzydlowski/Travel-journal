@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.site{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart--container{
+    display: flex;
+    width: 550px;
+    height: 240px;
+    background: #FFFFFF;
+    position: relative;
+    padding: 30px 40px 15px 40px
+}
+
+.cart--img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.cart--info{
+    display: flex;
+    flex-direction: column;
+    margin-top:19px;
+    margin-left:19px;
+    
+}
+
+.cart--info--firstLine{
+    display: flex;
+}
+
+.cart--info--map{
+    width: 7px;
+    height: 9px;
+    background: #DADADA;
+}
+
+.cart-country{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-left: 4px;
+    margin-right: 12px;
+}
+
+.cart--info--link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.cart--info--place{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top: 4px;
+    margin-bottom: 10px
+}
+
+.cart--info--date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    margin-bottom: 9px
+}
+
+.cart--info--text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+.navbar--logo{
+    width: 24px;
+    
+}
+
+.navbar{
+    width:550px;
+    height: 50px;
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar--text{
+    color:white;
+    margin-left: 7px;
+}
+
+.line{
+    display: block;
+    background-color: black;
+    width: 470px;
+    height: 0px;
+    border: 1px solid #F5F5F5;
+    position: absolute;
+    top: 230px;
+    background-color: #F5F5F5;
+}
+
